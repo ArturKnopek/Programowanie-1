@@ -7,4 +7,5 @@ public class Task {
     private taskCategory taskCategory;
     private String taskDateTimeStart;
     private String taskDateTimeStop;
+}
 
