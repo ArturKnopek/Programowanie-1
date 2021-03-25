@@ -1,8 +1,13 @@
 package Lab2;
 
+
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.lang.System;
+
 
 
 public class Task {
@@ -24,9 +29,14 @@ public class Task {
         taskDateTimeStart = date.toString();
     }
 
+    public Task(String taskName, String taskDescription, taskCategory taskCategory, String taskDateTimeStop) {
+
+    }
 
 
-    public String toString() {
+
+
+    public String ToString() {
         return "Name: " + taskName + ", Description: " + taskDescription + ", Category: " + taskCategory.name() +
                 ", Time start: " + taskDateTimeStart + ", Time stop: " + taskDateTimeStop;
     }

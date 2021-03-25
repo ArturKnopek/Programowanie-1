@@ -1,9 +1,12 @@
 package Lab2;
+import lombok.NoArgsConstructor;
+
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+
 public class Main {
     public static void main(String[] args) {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
