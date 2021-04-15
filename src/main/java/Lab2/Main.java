@@ -1,5 +1,4 @@
 package Lab2;
-import lombok.NoArgsConstructor;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
@@ -13,11 +12,11 @@ public class Main {
         Date dateToEnd1 = new Date(System.currentTimeMillis() + 5600000);
         Date dateToEnd2 = new Date(System.currentTimeMillis() + 93400000);
         Date dateToEnd3 = new Date(System.currentTimeMillis() + 32709000);
-        Task task1 = new Task("Przygotowywanie zadania", "zrobic zadanie", taskCategory.NEW, dateToEnd1.toString());
-        Task task2 = new Task("Czytanie", "Przeczytac ksiazke", taskCategory.IN_PROGRESS, dateToEnd2.toString());
-        Task task3 = new Task("Pisanie", "Napisac do kolegi", taskCategory.DONE, dateToEnd3.toString());
+        Task task1 = new Task("Przygotowywanie zadania", "zrobic zadanie", taskCategory.NEW);
+        Task task2 = new Task("Czytanie", "Przeczytac ksiazke", taskCategory.IN_PROGRESS);
+        Task task3 = new Task("Pisanie", "Napisac do kolegi", taskCategory.DONE);
         Date dateToEnd4 = new Date(System.currentTimeMillis() + TimeUnit.DAYS.toMillis(90));
-        Task task4 = new Task("Bieganie", "Przebiec 20km", taskCategory.NEW, dateToEnd4.toString());
+        Task task4 = new Task("Bieganie", "Przebiec 20km", taskCategory.NEW);
 
         List<Task> taskList = new ArrayList<Task>();
         taskList.add(task1);

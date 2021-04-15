@@ -1,7 +1,6 @@
 package Lab3;
 
 import Lab2.Task;
-import Lab2.taskCategory;
 import lombok.*;
 
 @NoArgsConstructor
@@ -27,7 +26,7 @@ public class Subtask extends Task {
 
 
     public Subtask(String taskName, String taskDescription, Lab2.taskCategory taskCategory, String taskDateTimeStop, String subtaskName) {
-        super(taskName, taskDescription, taskCategory, taskDateTimeStop);
+        super(taskName, taskDescription, taskCategory);
         this.subtaskName = subtaskName;
     }
 
